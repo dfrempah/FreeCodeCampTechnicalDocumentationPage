@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.main-doc{
+    flex-grow: 4;
+}
+.navbar{
+    flex-grow: 8;
+}
+#navbar{
+    background: teal;
+    color: red;
+    order: 0;
+}
+header{
+    background: aqua;
+}
+@media screen and (max-width: 600px){
+    .container{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+    }
+}

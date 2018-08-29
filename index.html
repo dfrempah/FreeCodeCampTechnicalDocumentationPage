@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Technical Documentation Page</title>
+    <link href="main.css" rel="stylesheet">
+</head>
+<body class="container">
+       
+                <nav id="navbar" class="navbar" >
+                        <header>GIT BEGINNER DOCUMENTATION</header>
+                        <a class="nav-link" href="#What_you_should_already_know" >What you should already know</a><br/>
+                        <a class="nav-link" href="#Introduction">Introduction</a><br/>
+                        <a class="nav-link" href="#Adding_info" >Adding info</a><br/>
+                        <a class="nav-link" href="#Setting_up" >Setting up</a><br/>
+                        <a class="nav-link" href="#Logs_and_Status" >Logs and Status</a><br/>
+                        <a class="nav-link" href="#Branching" >Branching</a><br/>
+                        <a class="nav-link" href="#Resources">Resources</a><br/>
+                    </nav>
+        
+        
+  
+            <main id="main-doc" class="main-doc">
+                    <section id="Introduction" class="main-section"> 
+                        <header>
+                            <h1>Introduction</h1>
+                        </header>
+                        <p>Git is a fast, scalable, distributed revision control system with an unusually rich command set that provides both high-level operations and full access to internals. </p>
+                        <p>After you mastered the basic concepts, you can come back to this page to learn what commands Git offers. You can learn more about individual Git commands with "git help command". gitcli[7] manual page gives you an overview of the command-line command syntax.</p>
+                    </section>
+                    <section id="What_you_should_already_know" class="main-section">
+                        <header>    
+                            <h1>What you should already know</h1>
+                        </header>
+                        <p>Basic Terminal Usage</p>
+                        <p>Minimal Computing knoweledge</p>
+                        <p>
+                            Git has support for 
+                            <ul>
+                                <li>MacOS</li>
+                                <li>Windows</li>
+                                <li>Linux</li>
+                                <li>Chrome OS</li>
+                                <li>Fuchsia OS</li>
+                            </ul>
+                        </p>   
+                    </section>
+                    <section id="Adding_info" class="main-section">
+                        <header>
+                            <h1>Adding info</h1>
+                        </header>
+                        <p>Usernames</p>
+                        <p>Emails</p>
+                        <code>
+                                $ git config --global user.name "Your Name Comes Here"
+                        </code>
+                        </code>
+                                $ git config --global user.email you@yourdomain.example.com
+                         </code>        
+                    </section>
+                    <section id="Setting_up" class="main-section">
+                        <header>
+                            <h1>Setting up</h1>
+                        </header>
+                        <p>Setting up your first repo</p>
+                        <code>
+                            git init
+                        </code>
+                        <code>
+                            git add .
+                        </code>
+                        <code>
+                            git commit -m "Type a message here  "
+                        </code>
+                    </section>
+                    <section id="Logs_and_Status" class="main-section">
+                        <header>
+                            <h1>Logs and Status</h1>
+                        </header>
+                        <p>Logs</p>
+                        <code>
+                                $ git log
+                        </code>
+                        <p>Status</p>
+                        <code>
+                                $ git status
+                        </code>
+                    </section>
+                    <section id="Branching" class="main-section">
+                        <header>
+                            <h1>Branching</h1>
+                        </header>
+                        <p>Branching refers to creating an alternate environment different from where work is currently being done</p>
+                        <p>If you are creating a branch that you want to checkout immediately, it is easier to use the git checkout command with its -b option to create a branch and check it out with a single command.
+                        </p>
+                        <code>
+                                $ git branch -d -r origin/todo origin/html origin/man  
+                        </code>
+                    </section>
+                    <section id="Resources" class="main-section">
+                        <header><h1>Resources</h1></header>
+                        <p>www.git.com</p>
+            
+                    </section>
+            
+                </main>       
+ 
+  
+    
+</body>
+</html>
