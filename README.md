@@ -2,6 +2,8 @@
 
 ## USER STORIES TO BE FULFILLED 
 
+## Written in HTML, CSS + FLexBox
+
 ## TESTS : 16/16
 
 *  I can see a main element with a corresponding id="main-doc", which contains the page's main content (technical documentation)
